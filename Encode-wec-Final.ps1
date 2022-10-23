@@ -31,5 +31,8 @@ foreach ($file in (Get-ChildItem *.xml)) {wecutil cs $file}
 cd $startdir
 
 # Inform of required reboot
-write-host "Restart the computer to complete the installation"
-
+write-host "
+*************************************************
+Restart the computer to complete the installation
+*************************************************
+" -ForegroundColor DarkGreen -BackgroundColor White 
