@@ -15,7 +15,7 @@ wevtutil sl ForwardedEvents /ms:$size
 Start-Sleep -Seconds 2
 
 wecutil qc /q
-Set-Service -Name Wecsvc -StartupType Automatic
+#Set-Service -Name Wecsvc -StartupType Automatic
 Start-Sleep -Seconds 2
 
 cd \tmp\wec-sub
